@@ -17,10 +17,28 @@
                 text-align: center;
                 size: 100px;
             }
-            
+            .header {
+                text-align: right;
+            }
+            a:link {
+                color: gray;
+                text-decoration: none;
+            }
+            a:visited {
+                color: gray;
+                text-decoration: none;
+            }
+            a:hover {
+                color: gray;  
+                text-decoration: underline;
+            }
         </style>
     </head>
     <body>
+        <div class="header">
+            <a href="AdvacedSearch.html">Advanced</a>
+            <a href="Imagesearch.html" style="padding:5px;">Image</a>
+        </div>
         <form action="https://www.google.com/search">
             <div class="container text-center">
                 <div class="google">
@@ -30,7 +48,7 @@
                     <input type="text" input type="submit" name="q" style="height: 34px; width: 575px; border-radius: 25px; padding-left: 8px; padding-right: 8px;">
                   </div>
                 <div class="submit">
-                    <input type="submit" value="Google Search" style="border-radius: 5px; height: 32px; width: 100px; background-color: grey; color: white; border-color: grey;">
+                    <input type="submit" value="Google Search" style="border-radius: 5px; height: 32px; width: 100px; background-color: #8b8b8b; color: white; border-color: #8b8b8b;">
 
                 </div>
             </div>
